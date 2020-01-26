@@ -42,7 +42,7 @@ header {
   margin-right: 2rem;
   outline: none;
   border: none;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   border-radius: 100px 100px 100px 100px;
   -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
@@ -86,6 +86,7 @@ header {
   }
   .header-text .more {
     display: flex;
+    align-items: center;
     align-items: center;
     margin-top: 10%;
   }

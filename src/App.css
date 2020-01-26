@@ -9,8 +9,8 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'DM Sans'
+  font-family: "DM Sans";
 }
-body{
-  scroll-behavior: smooth;
+::-webkit-scrollbar {
+  display: none;
 }

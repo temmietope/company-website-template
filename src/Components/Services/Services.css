@@ -8,7 +8,7 @@
 }
 .services section.header h2 {
   font-size: 2rem;
-  width: 78%;
+  width: 80%;
 }
 .services section.header button {
   background: #ff3946;
@@ -20,7 +20,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   border-radius: 100px 100px 100px 100px;
   -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
@@ -67,6 +67,10 @@ section.app-dev:hover {
     align-items: center;
     color: #304587;
   }
+
+  .services .link {
+    padding: 0;
+  }
   .services section.header {
     display: flex;
     flex-flow: column wrap;
@@ -76,6 +80,7 @@ section.app-dev:hover {
   .services section.header h2 {
     font-size: 1.4rem;
     text-align: center;
+    width: 100%;
   }
   .services section.graphic-design,
   section.app-dev {
@@ -89,6 +94,9 @@ section.app-dev:hover {
     text-align: center;
   }
 
+  .services section.header button {
+    margin: 0;
+  }
   .services h4 {
     font-size: 1em;
     margin: 0;
