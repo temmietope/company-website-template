@@ -1,0 +1,46 @@
+.about-div {
+  display: grid;
+  grid-template-columns: 43% 57%;
+  padding: 0 13%;
+  box-sizing: border-box;
+  height: 80vh;
+  width: 100%;
+  align-items: center;
+  margin: 2% 0;
+  color: #304587;
+}
+.about-us {
+  padding-left: 5rem;
+}
+.about-image img {
+  width: 100%;
+  height: 100%;
+}
+.about-company {
+  font-size: 0.8rem;
+  color: #ff3946;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.about-header {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+.about-summary {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  margin-bottom: 1rem;
+}
+.arrows {
+  display: flex;
+  align-items: center;
+}
+.arrows .large-icon {
+  color: #304587;
+}
+.small-icon {
+  font-size: 0.5rem;
+  margin-right: 1rem;
+  color: rgba(128, 128, 128, 0.685);
+}

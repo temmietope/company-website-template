@@ -1,0 +1,45 @@
+footer {
+  width: 100%;
+  margin-top: 2%;
+  height: 40vh;
+  background: #304587;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  color: white;
+  font-weight: bolder;
+}
+footer .footer-brandname {
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+}
+footer h1 {
+  font-size: 2rem;
+  color: #ff3946;
+  margin: 1% 0 0 0;
+}
+footer nav {
+  margin: 2% 0;
+  font-size: 0.7rem;
+}
+footer .link {
+  text-decoration: none;
+  padding-right: 1.7rem;
+  color: white;
+}
+footer .active {
+  color: #ff3946;
+}
+footer small {
+  font-weight: 100;
+  font-size: 0.5rem;
+}
+footer .social-media-icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}

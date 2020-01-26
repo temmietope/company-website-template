@@ -1,0 +1,50 @@
+.services {
+  margin: 5% 0 2% 0;
+  padding: 0 18%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 30% 25% 25%;
+  justify-content: space-between;
+  color: #304587;
+}
+.services section {
+  flex: 0 0 32%;
+}
+.services section.header h2 {
+  font-size: 2rem;
+}
+.services section.header button {
+  background: #ff3946;
+  color: white;
+  font-weight: bold;
+  padding: 0.7rem 2rem;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+}
+.services section.graphic-design,
+section.app-dev {
+  display: grid;
+  grid-template-rows: 35% 30% 35%;
+}
+
+.services h4 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+.services p {
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3rem;
+}
+.services img {
+  width: 2.7rem;
+  height: 2.7rem;
+}

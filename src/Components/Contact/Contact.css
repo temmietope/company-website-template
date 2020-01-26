@@ -1,0 +1,105 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 4% 0;
+  color: #304587;
+  padding: 0 18%;
+  height: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact p {
+  width: 100%;
+  font-size: 0.8rem;
+  color: #ff3946;
+  font-weight: bolder;
+}
+.contact h1 {
+  font-size: 2rem;
+  margin: 0;
+  height: 10vh;
+  width: 100%;
+}
+.contact form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+}
+form .input-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  padding-top: 10%;
+}
+form .input-section input[type="email"] {
+  margin-right: 1rem;
+}
+form .input-section input[type="text"] {
+  margin-left: 1rem;
+}
+form .input-section input {
+  background: inherit;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  background: #30448715;
+  letter-spacing: -0.028125rem;
+  color: #304587;
+  border-radius: 0;
+  -webkit-border-radius: 0px;
+  padding: 1rem;
+  font-weight: bolder;
+}
+form .input-section input ::placeholder,
+::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.028125rem;
+  mix-blend-mode: normal;
+  color: #304587;
+  font-weight: bolder;
+}
+form .input-section textarea {
+  background: inherit;
+  border: none;
+  resize: none;
+  outline: none;
+  margin-top: 3%;
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.028125rem;
+  border-radius: 0;
+  -webkit-border-radius: 0px;
+  color: #304587;
+  grid-column: 1/3;
+  background: #30448715;
+}
+form .submit-section {
+  width: 100%;
+  margin-top: 5%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+form .submit-section button {
+  background: #ff3946;
+  color: white;
+  font-weight: bold;
+  padding: 0.7rem 2rem;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+}
