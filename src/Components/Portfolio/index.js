@@ -5,18 +5,15 @@ const Portfolio = () => {
   const work_images = [
     require("../../assets/Ilustration 1.png"),
     require("../../assets/Vector Smart Object2.png"),
-    require("../../assets/Vector Smart Object3.png"),
-    require("../../assets/Vector Smart Object4.png"),
+    require("../../assets/Ilustration 1.png"),
+    require("../../assets/Vector Smart Object2.png"),
     require("../../assets/Ilustration 1.png"),
     require("../../assets/Vector Smart Object2.png")
   ];
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <div className="portfolio-header">
-        <h1>
-          See some of our <br />
-          Creative work.
-        </h1>
+        <h1>See some of our Creative work.</h1>
         <span className="arrows">
           <i className="fas fa-arrow-left small-icon" />
           <i className="fas fa-arrow-right long-icon" />

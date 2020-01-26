@@ -7,17 +7,20 @@
   position: sticky;
   top: 0;
   background: white;
-  height: 15vh;
+  height: 12vh;
   font-size: 0.8rem;
   font-weight: bolder;
   color: #304587;
-  padding: 0 6% ;
+  padding: 0 6%;
   box-sizing: border-box;
 }
 .link {
   text-decoration: none;
   padding-right: 1.7rem;
   color: #304587;
+}
+.link:hover {
+  color: #ff3946;
 }
 .active {
   color: #ff3946;
@@ -34,6 +37,8 @@
   outline: none;
   border-radius: 0.3rem;
   background: #fff;
+  font-family: 'DM Sans';
+  cursor: pointer;
   -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
@@ -42,50 +47,43 @@
   margin-left: 0.5rem;
 }
 
-
 @media screen and (max-width: 768px) {
   .navigation {
     display: grid;
-    grid-template-columns: 15% 55% 30%;
-    align-items: center;
-    width: 100%;
-    z-index: 9999;
-    position: sticky;
-    top: 0;
-    background: white;
-    height: 15vh;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    color: #304587;
-    padding: 0 6% ;
-    box-sizing: border-box;
+    grid-template-columns: 15% 60% 25%;
+    height: 10vh;
+    font-size: 0.5rem;
+  }
+  .brand-name img {
+    width: 70%;
+  }
+  ul {
+    padding: 0;
+    text-align: center;
   }
   .link {
     text-decoration: none;
-    padding-right: 1.7rem;
+    padding: 0 0.1rem;
     color: #304587;
   }
   .active {
     color: #ff3946;
   }
+  .others {
+    text-align: center;
+  }
   .others span {
-    margin-right: 1.7rem;
+    margin-right: 0.2rem;
   }
   .others button {
     border: none;
     color: #ff3946;
-    padding: 0.7rem 1.2rem;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    outline: none;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.4rem;
     border-radius: 0.3rem;
-    background: #fff;
-    -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
-    box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+    border: 1px solid #304487a2;
   }
   .others button i {
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
   }
-  
 }

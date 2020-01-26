@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-div">
+    <div className="about-div" id="about">
       <div className="about-image">
         <img
           src={require("../../assets/Ilustration 1.png")}
@@ -13,7 +13,7 @@ const About = () => {
       <div className="about-us">
         <h6 className="about-company">OUR COMPANY</h6>
         <h3 className="about-header">
-          Some Fine <br />
+          Some Fine
           Words About Us
         </h3>
         <p className="about-summary">

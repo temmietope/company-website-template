@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Navigation from "../Navigation";
 import Header from "../Header";
 import Services from "../Services";
@@ -10,12 +10,6 @@ import Footer from "../Footer";
 import "./Home.css";
 
 const Home = () => {
-  const servicesRef = useRef(null);
-  const aboutRef = useRef(null);
-  const portfolioRef = useRef(null);
-  const blogRef = useRef(null);
-  const contactRef = useRef(null);
-
   return (
     <div className="home">
       <Navigation />

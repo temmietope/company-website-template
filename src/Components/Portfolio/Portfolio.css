@@ -13,7 +13,6 @@
 }
 .portfolio-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 10vh;
   width: 100%;
@@ -22,6 +21,8 @@
 .portfolio-header h1 {
   font-size: 2rem;
   margin: 0;
+  width: 40%;
+  margin-right: auto;
 }
 .work-image {
   display: flex;
@@ -34,9 +35,8 @@
 .work-image .image {
   flex: 0 0 30%;
   max-height: 30vh;
-  border: 1px solid #ff39462c;
-  background: #e4cbcd2c;
-  border-radius: 1rem;
+  background: #e9e3e32c;
+  border-radius: 0.5rem;
 }
 .work-image img {
   width: 100%;
@@ -48,4 +48,48 @@
   width: 100%;
   text-align: center;
   font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding: 0 10%;
+    box-sizing: border-box;
+    height: inherit;
+    margin: 10% 0;
+  }
+  .portfolio-header {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-header h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .work-image {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    margin-top: 10%;
+  }
+  .work-image .image {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 10%;
+  }
+  .work-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .see-more {
+    font-size: 0.6rem;
+  }
 }

@@ -68,6 +68,7 @@ form .input-section input ::placeholder,
 }
 form .input-section textarea {
   background: inherit;
+  font-weight: bolder;
   border: none;
   resize: none;
   outline: none;
@@ -82,6 +83,14 @@ form .input-section textarea {
   grid-column: 1/3;
   background: #30448715;
 }
+form .input-section input:focus {
+  border-bottom: 1px solid black;
+  background: inherit;
+}
+form .input-section textarea:focus {
+  border-bottom: 1px solid black;
+  background: inherit;
+}
 form .submit-section {
   width: 100%;
   margin-top: 5%;
@@ -95,11 +104,56 @@ form .submit-section button {
   font-weight: bold;
   padding: 0.7rem 2rem;
   font-size: 0.8rem;
-  margin-right: 2rem;
   outline: none;
   border: none;
+  cursor: pointer;
+  font-family: "DM Sans";
   border-radius: 100px 100px 100px 100px;
   -webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
   box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+}
+form .submit-section button:hover {
+  background: #da0a18de;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 10% 0;
+    padding: 0 10%;
+  }
+  .contact p {
+    font-size: 0.5rem;
+  }
+  .contact h1 {
+    font-size: 1.4rem;
+    height: 5vh;
+  }
+  form .input-section {
+    width: 100%;
+    padding-top: 5%;
+  }
+  form .input-section input[type="email"] {
+    margin-right: 0.3rem;
+  }
+  form .input-section input[type="text"] {
+    margin-left: 0.3rem;
+  }
+  form .input-section input {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+  form .input-section input ::placeholder,
+  ::-webkit-input-placeholder {
+    font-size: 0.5rem;
+  }
+  form .input-section textarea {
+    margin-top: 2%;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+  form .submit-section button {
+    padding: 0.7rem 2rem;
+    font-size: 0.5rem;
+  }
 }

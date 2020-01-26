@@ -3,10 +3,12 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <section className="header">
         <h2>Anything you need, we've got you covered</h2>
-        <button>Get in Touch</button>
+        <a href="#contact" className="link">
+          <button>Get in Touch</button>
+        </a>
       </section>
       <section className="graphic-design">
         <img

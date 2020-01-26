@@ -26,7 +26,7 @@ footer nav {
 }
 footer .link {
   text-decoration: none;
-  padding-right: 1.7rem;
+  padding: 0 0.8rem;
   color: white;
 }
 footer .active {
@@ -42,4 +42,32 @@ footer .social-media-icons {
   justify-content: space-between;
   align-items: center;
   margin-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 10%;
+    height: 30vh;
+  }
+  footer .footer-brandname {
+    font-size: 0.5rem;
+  }
+  footer h1 {
+    font-size: 1.4rem;
+  }
+  footer nav {
+    margin: 4% 0;
+    font-size: 0.5rem;
+  }
+  footer small {
+    font-weight: 100;
+    font-size: 0.3rem;
+  }
+  footer .social-media-icons {
+    width: 15%;
+    margin-top: 5%;
+  }
+  footer .social-media-icons i {
+    font-size: 0.7rem;
+  }
 }

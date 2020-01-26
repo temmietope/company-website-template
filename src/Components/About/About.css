@@ -26,6 +26,7 @@
   font-size: 2rem;
   margin: 0;
   margin-bottom: 1.5rem;
+  width: 60%;
 }
 .about-summary {
   font-size: 0.8rem;
@@ -43,4 +44,49 @@
   font-size: 0.5rem;
   margin-right: 1rem;
   color: rgba(128, 128, 128, 0.685);
+}
+
+@media screen and (max-width: 768px) {
+  .about-div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+    height: 80vh;
+    width: 100%;
+    margin: 10% 0;
+    color: #304587;
+  }
+  .about-us {
+    padding: 0;
+    margin-top: 10%;
+  }
+  .about-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .about-company {
+    font-size: 0.5rem;
+    color: #ff3946;
+    margin: 0;
+    margin: 1rem 0;
+  }
+  .about-header {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  .about-summary {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

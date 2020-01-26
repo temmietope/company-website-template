@@ -47,6 +47,10 @@
   display: grid;
   grid-template-rows: 15% 10% 60% 15%;
 }
+.blog-post:hover {
+  background: #ff3946ce;
+  color: white;
+}
 .blog-post h5 {
   font-size: 0.7rem;
   margin: 0;
@@ -68,4 +72,51 @@
 }
 .first span {
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    padding: 0 10%;
+    box-sizing: border-box;
+    height: inherit;
+    margin: 10% 0;
+  }
+  .blog-stories {
+    font-size: 0.5rem;
+  }
+  .blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+  }
+  .blog-header h1 {
+    font-size: 1.4rem;
+  }
+  .blog-posts {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    margin-top: 4%;
+  }
+  .blog-post {
+    width: 100%;
+    height: inherit;
+    padding: 10% 5%;
+    margin-bottom: 5%;
+  }
+  .blog-post h5 {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  .blog-post span {
+    font-size: 0.4rem;
+    color: #304587;
+  }
+  .blog-post p {
+    font-size: 0.7rem;
+  }
 }

@@ -1,6 +1,4 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-import Scrollspy from "react-scrollspy";
 
 import "./Footer.css";
 
@@ -10,41 +8,21 @@ const Footer = () => {
       <p className="footer-brandname">DOOB</p>
       <h1>CREATIVITY ABOVE</h1>
       <nav className="nav-links">
-        <Scrollspy
-          items={["about", "portfolio", "blog", "contact"]}
-          currentClassName="active"
-        >
-          <a href="#" className="link">
-            Home.
-          </a>
-          <a href="#about" className="link">
-            About us.
-          </a>
-          <a href="#portfolio" className="link">
-            Portfolio.
-          </a>
-          <a href="#blog" className="link">
-            Blog.
-          </a>
-          <a href="#contact" className="link">
-            Contact us.
-          </a>
-        </Scrollspy>
-        {/* <NavLink to="/" activeClassName="active" className="link">
+        <a href="/#" className="link">
           Home.
-        </NavLink>
-        <NavLink to="/about" activeClassName="active" className="link">
+        </a>
+        <a href="#about" className="link">
           About us.
-        </NavLink>
-        <NavLink to="/portfolio" activeClassName="active" className="link">
+        </a>
+        <a href="#portfolio" className="link">
           Portfolio.
-        </NavLink>
-        <NavLink to="/blog" activeClassName="active" className="link">
+        </a>
+        <a href="#blog" className="link">
           Blog.
-        </NavLink>
-        <NavLink to="/contact" activeClassName="active" className="link">
+        </a>
+        <a href="#contact" className="link">
           Contact us.
-        </NavLink> */}
+        </a>
       </nav>
       <small>
         &copy; {new Date().getFullYear()} - Doob, All Right Reserved

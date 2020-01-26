@@ -26,7 +26,7 @@ const Blog = () => {
     }
   ];
   return (
-    <div className="blog">
+    <div className="blog" id="blog">
       <p className="blog-stories">BLOG STORIES</p>
       <div className="blog-header">
         <h1>Check Our News</h1>
